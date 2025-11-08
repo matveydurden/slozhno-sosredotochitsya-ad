@@ -2,14 +2,14 @@
   --accent-color: #ff8dcb;
   --text-main-color: #353430;
   --button-list-color: #353430;
-  --button-list-hover-color: rgba(50, 49, 45, 0.4);
+  --button-list-hover-color: rgba(50, 49, 45, 0.40);
   --font-family: 'IBM Plex Mono', monospace;
-  --small-gap: 12px;
-  --mid-gap: 23px;
   --text-line-height: 23.4px;
   --subtitle-color: #353430;
   --corner-color: #353430;
   --rec-element-color: transparent;
+  --small-gap: 12px;
+  --mid-gap: 23px;
   --text-font-size: 18px;
   --title-decor: #ff8dcb;
   --background-color: #fff1f7;
@@ -18,6 +18,7 @@
   --footer-color: #ffc2e6;
   --unique-decoration-color: #353430;
   --shadow-color: #ff8dcb;
+  
   background-image: url(../images/cover-image-light.png);
 }
 
@@ -31,39 +32,40 @@
   }
 }
 
+
+
 @media (prefers-color-scheme: light) {
-  :root {
-    --accent-color: #ff8dcb;
-    --text-main-color: #353430;
-    --button-list-color: #353430;
-    --button-list-hover-color: rgba(50, 49, 45, 0.4);
-    --font-family: 'IBM Plex Mono', monospace;
-    --small-gap: 12px;
-    --mid-gap: 23px;
-    --text-line-height: 23.4px;
-    --subtitle-color: #353430;
-    --corner-color: #353430;
-    --rec-element-color: transparent;
-    --text-font-size: 18px;
-    --title-decor: #ff8dcb;
-    --background-color: #fff1f7;
-    --heading-text-color: #353430;
-    --header-color: #ffc2e6;
-    --footer-color: #ffc2e6;
-    --unique-decoration-color: #353430;
-  }
+:root {
+  --accent-color: #ff8dcb;
+  --text-main-color: #353430;
+  --button-list-color: #353430;
+  --button-list-hover-color: rgba(50, 49, 45, 0.40);
+  --font-family: 'IBM Plex Mono', monospace;
+  --text-line-height: 23.4px;
+  --subtitle-color: #353430;
+  --corner-color: #353430;
+  --rec-element-color: transparent;
+  --small-gap: 12px;
+  --mid-gap: 23px;
+  --text-font-size: 18px;
+  --title-decor: #ff8dcb;
+  --background-color: #fff1f7;
+  --header-color: #ffc2e6;
+  --footer-color: #ffc2e6;
+  --unique-decoration-color: #353430;
+}
 
-  .page {
+.page {
     background-image: url(../images/cover-image-light.png);
+}
+
+@media (width <= 1024px) {
+  .theme_light.header__topic-name {
+    --shadow-color: #ff0070;
   }
 
-  @media (width <= 1024px) {
-    .theme_light.header__topic-name {
-      --shadow-color: #ff0070;
-    }
-
-    .theme_light.footer__title {
-      --shadow-color: #ff0070;
-    }
+  .theme_light.footer__title {
+    --shadow-color: #ff0070;
   }
+}
 }

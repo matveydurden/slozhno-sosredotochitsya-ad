@@ -1,46 +1,46 @@
 .page.theme_dark {
-  --accent-color: #ff0070;
-  --text-main-color: #f1b2ce;
-  --button-list-color: #ff0070;
-  --button-list-hover-color: rgba(255, 0, 112, 0.4);
+  --accent-color: #FF0070;
+  --text-main-color: #F1B2CE;
+  --button-list-color: #FF0070;
+  --button-list-hover-color: rgba(255, 0, 112, 0.40);
   --font-family: 'IBM Plex Mono', monospace;
   --small-gap: 12px;
   --mid-gap: 23px;
   --text-line-height: 23.4px;
-  --subtitle-color: #ff0070;
-  --corner-color: #ff0070;
-  --rec-element-color: #ff0070;
+  --subtitle-color: #FF0070;
+  --corner-color: #FF0070;
+  --rec-element-color: #FF0070;
   --text-font-size: 18px;
-  --title-decor: #ff0070;
+  --title-decor: #FF0070;
   --background-color: #000028;
   --heading-text-color: #000028;
   --header-color: #db00ff;
   --footer-color: #db00ff;
-  --unique-decoration-color: #f1b2ce;
+  --unique-decoration-color: #F1B2CE;
   --shadow-color: #ff0070;
   background-image: url(../images/cover-image-dark.png);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --accent-color: #ff0070;
-    --text-main-color: #f1b2ce;
-    --button-list-color: #ff0070;
-    --button-list-hover-color: rgba(255, 0, 112, 0.4);
-    --font-family: 'IBM Plex Mono', monospace;
-    --small-gap: 12px;
-    --mid-gap: 23px;
-    --text-line-height: 23.4px;
-    --subtitle-color: #ff0070;
-    --corner-color: #ff0070;
-    --rec-element-color: #ff0070;
-    --text-font-size: 18px;
-    --title-decor: #ff0070;
-    --background-color: #000028;
-    --heading-text-color: #000028;
-    --header-color: #db00ff;
-    --footer-color: #db00ff;
-    --unique-decoration-color: #f1b2ce;
-    --shadow-color: #ff0070;
-  }
+:root {
+  --accent-color: #FF0070;
+  --text-main-color: #F1B2CE;
+  --button-list-color: #FF0070;
+  --button-list-hover-color: rgba(255, 0, 112, 0.40);
+  --font-family: 'IBM Plex Mono', monospace;
+  --small-gap: 12px;
+  --mid-gap: 23px;
+  --text-line-height: 23.4px;
+  --subtitle-color: #FF0070;
+  --corner-color: #FF0070;
+  --rec-element-color: #FF0070;
+  --text-font-size: 18px;
+  --title-decor: #FF0070;
+  --background-color: #000028;
+  --heading-text-color: #000028;
+  --header-color: #db00ff;
+  --footer-color: #db00ff;
+  --unique-decoration-color: #F1B2CE;
+  --shadow-color: #ff0070;
+}
 }
