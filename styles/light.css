@@ -4,7 +4,7 @@
   --button-list-color: #353430;
   --button-list-hover-color: rgba(50, 49, 45, 0.40);
   --font-family: 'IBM Plex Mono', monospace;
-  --text-line-height: 23.4px;
+  --text-line-height: line-height: 23.4px;
   --subtitle-color: #353430;
   --corner-color: #353430;
   --rec-element-color: transparent;
@@ -41,7 +41,7 @@
   --button-list-color: #353430;
   --button-list-hover-color: rgba(50, 49, 45, 0.40);
   --font-family: 'IBM Plex Mono', monospace;
-  --text-line-height: 23.4px;
+  --text-line-height: line-height: 23.4px;
   --subtitle-color: #353430;
   --corner-color: #353430;
   --rec-element-color: transparent;
